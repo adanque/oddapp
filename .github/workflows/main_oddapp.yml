@@ -79,7 +79,8 @@ jobs:
           MY_APP_SETTING: ${{ secrets.MY_GITHUB_SECRET }}
 
       - name: Use the retrieved secret
-        run: echo "The secret value is: ${{ steps.mySecrets.outputs.ODDAPP-OPENAI-API-KEY }}"
+        run: |      
+            echo "The secret value is: ${{ steps.mySecrets.outputs.ODDAPP-OPENAI-API-KEY }}"
         
       #- name: Get Secrets from Key Vault
         #id: fetch-secrets
