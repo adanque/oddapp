@@ -1,3 +1,4 @@
+uvicorn
 numpy
 fastapi
 pydantic
