@@ -1,0 +1,17 @@
+numpy
+fastapi
+pydantic
+tiktoken
+openai
+asyncio
+datetime
+sse_starlette
+pydantic_settings
+uuid
+tqdm
+pdfminer
+redis
+poetry
+requests
+pytest
+gunicorn
