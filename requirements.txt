@@ -16,3 +16,10 @@ poetry
 requests
 pytest
 gunicorn
+sendgrid
+azure.servicebus
+azure.storage.blob
+azure.keyvault.secrets
+azure.identity
+logging
+python-dotenv
